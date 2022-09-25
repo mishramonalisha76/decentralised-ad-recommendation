@@ -1,0 +1,139 @@
+.div-row {
+    display: flex;
+}
+.div-column {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin: 5% 10%;
+}
+.dashboard-div{
+    background-color: rgb(45, 41, 41);
+    box-shadow: #5aa3a6 0px 5px 15px;
+    border-radius: 14px;
+}
+.dashboard-div h1 {
+ text-align: center;
+ background: -webkit-linear-gradient(#3a4ed5, #3acfd5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+
+.dashboard-tab-div{
+    justify-content: center;
+}
+
+.dashboard-tab-div-button{
+    color: white;
+    font-size: 2rem;
+    width: 100%;
+    padding: 1rem 1.5rem  1rem 0;
+    background-color: transparent;
+    cursor: pointer;
+    text-align: center;
+    align-content: center;
+    border: transparent;
+    border-radius:10px;
+    height: 100%;
+}
+.dashboard-tab-div-button:hover {
+
+    background: linear-gradient(to bottom, #3acfd5 0%, #3a4ed5 100%);
+}
+.dashboard-div hr{
+    color: darkgray;
+    width: 100%;
+    }
+.user-div { 
+    justify-content: center;
+
+    margin: 0% 10%;
+}
+
+
+.user-input-div {
+    justify-content: center;
+}
+
+.user-input-label-div {
+    margin:5% 0%;
+
+}
+.user-input-div-label {
+    
+    color:white;
+    margin:0 0 1rem 1rem ;
+}
+.user-input-div-input {
+    height: 1.5rem;
+    border-radius: 8px;
+    padding: 2%;
+    box-shadow: #111111 0px 5px 15px;
+}
+
+.user-create-label {
+    color:white;
+    margin:0.5rem 0.5rem ;
+    font-size: x-large;
+}
+
+.user-create-input {
+    margin-bottom: 1.5rem;
+    height: 2.5rem;
+    width: 20.5rem;
+    border-radius: 8px;
+    padding: 2%;
+    box-shadow: #111111 0px 5px 15px;
+}
+
+.user-div-button {
+    align-self: center;
+    color: white;
+    font-size: 1.5rem;
+    width: fit-content;
+    padding: 0.5rem 1.5rem;
+    border-radius:10px;
+    background: linear-gradient(to bottom, #3acfd5 0%, #3a4ed5 100%);
+    cursor: pointer;
+    margin-top: 2.2rem;
+    box-shadow: #111111 0px 5px 15px;
+}
+.user-div-button:hover {
+    border:2px solid transparent;
+  border-radius:50px;
+  border-right-color:#3acfd5;
+  border-left-color:#3a4ed5;
+  background:
+    linear-gradient(to left,
+      #3a4ed5 0%, #3acfd5 70% ,
+      #3acfd5 70%,  #3a4ed5 85%, 
+      #3acfd5 85%, #3acfd5 100%) top/100% 2px,
+    linear-gradient(to left, #3a4ed5 0%, #3acfd5 100%) bottom/100% 2px;
+  background-repeat:no-repeat;
+}
+.user-items {
+    margin:2rem;
+}
+
+.user-div-reco{
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.user-div-reco-div {
+    background: linear-gradient(to bottom, #3acfd5 0%, #3a4ed5 100%);
+    border-radius: 11px;
+    padding:1rem 2rem;
+    width: fit-content;
+    align-items: center;
+    margin: 5% 1%;
+    box-shadow: #111111 0px 5px 15px;
+}
+.user-div-reco-div h2 {
+    color: white;
+   }
+.user-div-reco-div p {
+    color: white;
+}

@@ -1,0 +1,162 @@
+.landing {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: -2%;
+}
+.landing h1 {
+  font-size: 4rem;
+  color: white;
+  background: -webkit-linear-gradient(#3a4ed5, #3acfd5);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.landing h3 {
+  color: white;
+  background: #ba9916;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.landing p {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: -2%;
+  color: rgb(206, 221, 226);
+}
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+.landing-img-div {
+  width: 84rem;
+  height: 30rem;
+  overflow: hidden;
+  
+
+}
+
+.landing-img-div img {
+  width: 100%;
+  height: 100%;
+  /* object-fit: fill;
+  object-position: top 90%; */
+}
+
+.landing-column {
+display: flex;
+flex-direction: column;
+justify-content: center;
+/* background-color: red; */
+}
+
+.landing-row {
+display: flex;
+justify-content: space-evenly;
+}
+.feature-div{
+text-align: center;
+}
+.feature-div-img{
+width:4rem;
+height: 4rem;
+overflow: hidden;
+}
+.feature-div-img img {
+width: 100%;
+height: 100%;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat");
+
+
+
+
+img {
+width: 100%;
+}
+
+.card {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+background-image: linear-gradient(-8deg,
+  rgba(163, 150, 255, 0.1) 20%,
+  rgba(195, 200, 232, 0.111),
+  rgba(163, 150, 255, 0.1) 90%);
+width: 15rem;
+height: 15rem;
+padding: 24px;
+border-radius: 24px;
+backdrop-filter: blur(4px);
+-webkit-backdrop-filter: blur(4px);
+border-top: 1px solid rgba(255, 255, 255, 0.5);
+border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+border-right: 1px solid rgba(255, 255, 255, 0.2);
+border-left: 1px solid rgba(255, 255, 255, 0.1);
+box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.avatar {
+width: 60%;
+border-radius: 50%;
+margin-bottom: 16px;
+padding: 4px;
+border: 2px solid #04d361;
+animation: borderHighlight 2s ease infinite;
+}
+
+@keyframes borderHighlight {
+50% {
+  border-color: transparent;
+}
+}
+
+.title {
+font-size: 1.3rem;
+color: white;
+font-weight: 200;
+}
+
+.title span {
+font-weight: 600;
+}
+
+.circle {
+--size: 8rem;
+position: absolute;
+width: var(--size);
+height: var(--size);
+background: #04d361;
+border-radius: 50%;
+z-index: -1;
+opacity: 0.5;
+backdrop-filter: blur(4px);
+}
+
+.copyright-sec{
+
+margin: 2rem 0rem ;
+padding: 0.2rem ;
+min-height: 4rem;
+font-size: 1.3rem;
+display: flex ;
+justify-content: center;
+color: aliceblue;
+backdrop-filter: blur(4px);
+}
+.feature-div-h1 {
+  font-size: 3rem;
+  margin: 10rem 0;
+  color: white;
+  background: -webkit-linear-gradient(#3a4ed5, #3acfd5);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
